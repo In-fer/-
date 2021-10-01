@@ -8,4 +8,4 @@ if (isset($_GET["theme"])) {
         $_SESSION["theme"] = $theme;
     }
 }
-&>
+?>
