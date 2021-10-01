@@ -2,6 +2,7 @@
 <HTML lang="ru">
 <Head>
     <?php
+session_start();
 
     if (!isset($_SESSION["theme"])) {
         $_SESSION["theme"] = "main";
