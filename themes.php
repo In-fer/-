@@ -7,7 +7,7 @@ if(isset($_GET["theme"]))
     
    
 
-    if($theme == "light" || $theme == "dark")
+    if($theme == "main" || $theme == "dark")
     {
         $_SESSION["theme"] = $theme;
     }
